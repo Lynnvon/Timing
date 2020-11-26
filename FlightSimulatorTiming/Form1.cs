@@ -16,7 +16,7 @@ namespace FlightSimulatorTiming
     {
 
         private Color tr_color = Color.Transparent;
-        System.DateTime TimeNow = new DateTime();
+        System.DateTime TimeNow = DateTime.Now;
         TimeSpan TimeCount = new TimeSpan();
 
         public Form1()
